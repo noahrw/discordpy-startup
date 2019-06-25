@@ -19,4 +19,8 @@ async def ping(ctx):
 async def vnn(ctx):
     await ctx.send('やめときな……')
 
+@bot.command()
+async def cobra(ctx):
+    await ctx.send('ｼﾞｬｰｰｰｰｰｰｰｰｰｰｰｰｯ!!')
+
 bot.run(token)
